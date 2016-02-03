@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>hack.write() (testing)</title><link>https://0.0.0.0:8000/</link><description></description><atom:link type="application/rss+xml" rel="self" href="https://0.0.0.0:8000/categories/testing.xml"></atom:link><language>en</language><lastBuildDate>Wed, 03 Feb 2016 23:40:47 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>And Another</title><link>https://0.0.0.0:8000/posts/and-another/</link><dc:creator>Adam Wood</dc:creator><description>&lt;div&gt;&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href="http://example.com"&gt;consectetur adipiscing&lt;/a&gt; elit. In et ex &lt;a href="https://0.0.0.0:8000/example-page"&gt;vel&lt;/a&gt; mi tincidunt &lt;em&gt;italic&lt;/em&gt; tincidunt &lt;strong&gt;bold&lt;/strong&gt; in tristique velit. Praesent &lt;code&gt;some code&lt;/code&gt; consequat &lt;dfn&gt;definition&lt;/dfn&gt; elit ac risus &lt;abbr&gt;abbr&lt;/abbr&gt; faucibus suscipit. Vivamus ut justo non lorem cursus condimentum sit amet nec lorem.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote.
+Vivamus ut justo non lorem cursus condimentum sit amet nec lorem.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class="code literal-block"&gt;&lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;name_of_class&lt;/span&gt;
+  &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+&lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;name_of_class&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;Nunc at suscipit mi, nec ultrices odio. Maecenas ultricies placerat eros vitae faucibus. Nullam augue erat, suscipit in turpis et, feugiat pulvinar enim. Vivamus egestas, dolor ultricies eleifend fermentum, dolor ligula rhoncus justo, vitae laoreet est nisl eu velit.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bibendum&lt;ul&gt;
+&lt;li&gt;second layer&lt;ul&gt;
+&lt;li&gt;third layer&lt;/li&gt;
+&lt;li&gt;third layer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;velit ut nibh&lt;/li&gt;
+&lt;li&gt;vulputate fermentum&lt;/li&gt;
+&lt;li&gt;eu eget lacus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vestibulum id vulputate risus:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;uno&lt;ul&gt;
+&lt;li&gt;sub ul&lt;/li&gt;
+&lt;li&gt;sub ul&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;dos&lt;ol&gt;
+&lt;li&gt;sub ol&lt;/li&gt;
+&lt;li&gt;sub ol&lt;/li&gt;
+&lt;li&gt;sub ol&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;tres
+     a. sub ol
+     b. sub ol&lt;/li&gt;
+&lt;li&gt;quatro&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Nunc at suscipit mi, nec ultrices odio. Maecenas ultricies placerat eros vitae faucibus. Nullam augue erat, suscipit in turpis et, feugiat pulvinar enim. Vivamus egestas, dolor ultricies eleifend fermentum, dolor ligula rhoncus justo, vitae laoreet est nisl eu velit.&lt;/p&gt;
+&lt;h2&gt;Nunc at suscipit mi - 1hash (h2)&lt;/h2&gt;
+&lt;p&gt;Nec ultrices odio. Maecenas ultricies placerat eros vitae faucibus. Nullam augue erat, suscipit in turpis et, feugiat pulvinar enim. Vivamus egestas, dolor ultricies eleifend fermentum, dolor ligula rhoncus justo, vitae laoreet est nisl eu velit.&lt;/p&gt;
+&lt;h3&gt;Vivamus egestas - 2hash (h3)&lt;/h3&gt;
+&lt;p&gt;Vivamus egestas, dolor ultricies eleifend fermentum, dolor ligula rhoncus justo, vitae laoreet est nisl eu velit.&lt;/p&gt;
+&lt;h4&gt;Eleifend fermentum - 3hash (h4)&lt;/h4&gt;
+&lt;p&gt;Nec ultrices odio. Maecenas ultricies placerat eros vitae faucibus. Nullam augue erat, suscipit in turpis et, feugiat pulvinar enim.&lt;/p&gt;
+&lt;h5&gt;Eleifend fermentum - 4hash (h5)&lt;/h5&gt;
+&lt;p&gt;Nec ultrices odio. Maecenas ultricies placerat eros vitae faucibus. Nullam augue erat, suscipit in turpis et, feugiat pulvinar enim.&lt;/p&gt;
+&lt;h6&gt;Eleifend fermentum - 5hash (h6)&lt;/h6&gt;
+&lt;p&gt;Nec ultrices odio. Maecenas ultricies placerat eros vitae faucibus. &lt;em&gt;Nullam&lt;/em&gt; augue erat, &lt;strong&gt;suscipit&lt;/strong&gt; in turpis et, feugiat pulvinar enim.&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span class="nn"&gt;#id&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+ &lt;span class="nb"&gt;color&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;green&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="nb"&gt;background-color&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;#223344&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;a&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+ &lt;span class="nb"&gt;text-decoration&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nt"&gt;a&lt;/span&gt;&lt;span class="nd"&gt;:hover&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+ &lt;span class="nb"&gt;color&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="m"&gt;#000055&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nc"&gt;.class&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+ &lt;span class="nb"&gt;border&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;pre class="code literal-block"&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt; &lt;span class="na"&gt;class&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"class"&lt;/span&gt; &lt;span class="na"&gt;id&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;"id"&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Nunc at suscipit mi, nec ultrices odio.&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;Maecenas ultricies placerat eros vitae faucibus.&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;p&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;&lt;span class="c"&gt;&amp;lt;!-- /.class  /#id --&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;div class="render"&gt;
+Things to be rendered.
+&lt;div class="class" id="id"&gt;
+  &lt;p&gt;Nunc at suscipit mi, nec ultrices odio.&lt;/p&gt;
+  &lt;p&gt;Maecenas ultricies placerat eros vitae faucibus.&lt;/p&gt;
+&lt;/div&gt;&lt;!-- /.class  /#id --&gt;
+Other things.
+&lt;/div&gt;&lt;/div&gt;</description><category>markdown</category><category>testing</category><category>writing</category><guid>https://0.0.0.0:8000/posts/and-another/</guid><pubDate>Wed, 03 Feb 2016 01:08:48 GMT</pubDate></item></channel></rss>

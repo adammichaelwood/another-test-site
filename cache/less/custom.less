@@ -1,0 +1,285 @@
+/** HACKWRITE THEMING **/
+
+/* Solarized colors */
+
+@base03:    greyscale(#002b36);
+@base02:    greyscale(#073642);
+@base01:    greyscale(#586e75);
+@base00:    greyscale(#657b83);
+@base0:     greyscale(#839496);
+@base1:     greyscale(#93a1a1);
+@base2:     greyscale(#eee8d5);
+@base3:     greyscale(#fdf6e3);
+@yellow:    #b58900;
+@orange:    #cb4b16;
+@red:       #dc322f;
+@magenta:   #d33682;
+@violet:    #6c71c4;
+@blue:      #268bd2;
+@cyan:      #2aa198;
+@green:     #859900;
+
+
+
+
+/* One size */
+
+body {
+	background-color: @base03;
+	color: @base0;
+	font-family: "Emilbus Mono", Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
+	font-size: 30px;
+	line-height: 1.4;
+	padding: 1em;
+}
+
+#brand, .entry-title, #header, #nav, menu, h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+}
+
+pre, code, pre.code, pre code, .code, .literal-block {
+	background-color: @base02;
+}
+
+pre, pre.code, pre code, .literal-block {
+  margin-left: -4em;
+	margin-right: -4em;
+	padding-left: 4em;
+	padding-right: 4em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+a {
+	color: @blue;
+
+  &:link {
+		color: @blue;
+	}
+
+	&:visited {
+		color: @blue;
+	}
+
+	&:hover {
+		color: @blue !important;
+		text-decoration: underline;
+	}
+}
+
+.headers {
+	color: @orange !important;
+	text-decoration: none;
+
+}
+
+h1, h2, h3, .postpage .entry-title a, .postpage .entry-title a:hover {
+	.headers;
+	font-weight: bold;
+}
+
+h4, h5, h6 {
+	.headers;
+	font-weight: normal;
+}
+
+.after-markup {
+	font-size: .75em;
+	color: @base02;
+}
+
+article p {
+	&:after {
+	 .after-markup;
+	 content: "</p>";
+	}
+}
+
+article {
+ h2, h3, h4, h5, h6 {
+
+	 margin-left: -1ch;
+
+		&:before {
+			font-weight: normal;
+			font-size: .8em;
+			color: darken(@orange, 15%);
+		}
+	}
+}
+
+body {counter-reset: h2}
+h2 {counter-reset: h3}
+h3 {counter-reset: h4}
+h4 {counter-reset: h5}
+h5 {counter-reset: h6}
+
+ h2:before {counter-increment: h2; content: counter(h2) " — "}
+ h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) " — "}
+ h4:before {counter-increment: h4; content: counter(h2) "." counter(h3) "." counter(h4) " — "}
+ h5:before {counter-increment: h5; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) " — "}
+ h6:before {counter-increment: h6; content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) " — "}
+
+
+article h2:after {
+	.after-markup;
+	content: " </h2>";
+
+}
+
+article h3:after {
+	.after-markup;
+	content: " </h3>";
+
+}
+article h4:after {
+	.after-markup;
+	content: " </h4>";
+
+}
+
+article h5:after {
+	.after-markup;
+	content: " </h5>";
+
+}
+
+article h6:after {
+	.after-markup;
+	content: " </h6>";
+
+}
+
+article ul {
+	margin-left: none;
+	padding-left: 2ch;
+}
+
+article ul, article ul li {
+  margin-left: none;
+	list-style-type: none;
+}
+
+article ul li:before {
+	content: " - ";
+	color: @violet;
+}
+
+article ul li li:before {
+	content: " -- ";
+}
+
+article ul li li li:before {
+	content: " --- ";
+}
+
+article ul li li li li:before {
+	content: " ---- ";
+}
+
+ol {
+	counter-reset: item;
+	padding-left: 2ch;
+}
+
+ol li {
+	padding-left: 0;
+	display: block;
+}
+
+ol li:before {
+	content: counter(item) ". ";
+	counter-increment: item;
+	color: @violet;
+}
+
+ol ol {
+	counter-reset: nest-item;
+
+	li:before {
+		content: counter(nest-item) ". ";
+		counter-increment: nest-item;
+	}
+
+	ol {
+		counter-reset: nest-nest-item;
+
+		li:before {
+			content: counter(nest-nest-item) ". ";
+			counter-increment: nest-nest-item;
+		}
+	}
+
+}
+
+ol ul li:before {
+	content: " - ";
+	counter-increment: none;
+}
+
+
+
+.metadata {
+  &:before, &:after {
+		color: @base01;
+		white-space: pre-wrap;
+		display: block;
+	}
+
+	&:before {
+		content: "<!--";
+	}
+
+	&:after {
+		content: "-->";
+	}
+
+	p {
+		display: block;
+		margin: 0;
+		padding-left: 2ch;
+		&:before {
+			color: @base01;
+		}
+		&:after {
+			content: none;
+		}
+	}
+
+	.byline-name {
+		&:before {
+			color: @base01;
+			content: " .. author:";
+		}
+	}
+	.dateline {
+		&:before {
+			content: " .. published: ";
+		}
+	}
+
+	.sourceline {
+		&:before {
+			content: " .. view_source: ";
+		}
+	}
+
+}
+
+blockquote {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 3ch;
+	border-left: 1px solid @base02;
+
+	&:before, &:after {
+		.after-markup;
+		display: block;
+	}
+	&:before {
+		content: "<blockquote>";
+	}
+	&:after {
+		content: "</blockquote>"
+	}
+}

@@ -1,0 +1,42 @@
+/** HACKWRITE THEMING **/
+/* One size */
+#brand,
+.entry-title,
+#header,
+#nav,
+menu,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+pre,
+code,
+pre.code,
+pre code,
+.code,
+.literal-block {
+  background-color: #363636;
+}
+pre,
+pre.code,
+pre code,
+.literal-block {
+  margin-left: -4em;
+  margin-right: -4em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #cb4b16;
+}
