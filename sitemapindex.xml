@@ -6,27 +6,27 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://0.0.0.0:8000/categories/markdown.xml</loc>
-  <lastmod>2016-02-03T23:40:00Z</lastmod>
+  <loc>http://adammichaelwood.com/another-test-site/categories/markdown.xml</loc>
+  <lastmod>2016-02-03T23:55:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://0.0.0.0:8000/categories/testing.xml</loc>
-  <lastmod>2016-02-03T23:40:00Z</lastmod>
+  <loc>http://adammichaelwood.com/another-test-site/categories/testing.xml</loc>
+  <lastmod>2016-02-03T23:55:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://0.0.0.0:8000/categories/writing.xml</loc>
-  <lastmod>2016-02-03T23:40:00Z</lastmod>
+  <loc>http://adammichaelwood.com/another-test-site/categories/writing.xml</loc>
+  <lastmod>2016-02-03T23:55:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://0.0.0.0:8000/galleries/rss.xml</loc>
-  <lastmod>2016-02-03T23:38:00Z</lastmod>
+  <loc>http://adammichaelwood.com/another-test-site/galleries/rss.xml</loc>
+  <lastmod>2016-02-03T23:55:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://0.0.0.0:8000/rss.xml</loc>
-  <lastmod>2016-02-03T23:40:00Z</lastmod>
+  <loc>http://adammichaelwood.com/another-test-site/rss.xml</loc>
+  <lastmod>2016-02-03T23:55:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://0.0.0.0:8000/sitemap.xml</loc>
-  <lastmod>2016-02-03T23:40:00Z</lastmod>
+  <loc>http://adammichaelwood.com/another-test-site/sitemap.xml</loc>
+  <lastmod>2016-02-03T23:55:00Z</lastmod>
  </sitemap>
 </sitemapindex>
