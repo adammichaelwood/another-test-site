@@ -1,4 +1,4 @@
-Sitemap: https://0.0.0.0:8000/sitemapindex.xml
+Sitemap: http://adammichaelwood.com/another-test-site/sitemapindex.xml
 
 User-Agent: *
-Host: 0.0.0.0:8000
+Host: adammichaelwood.com

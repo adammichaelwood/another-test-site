@@ -6,43 +6,51 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://0.0.0.0:8000/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/</loc>
   <lastmod>2016-02-03T01:09:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/2016/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/2016/</loc>
   <lastmod>2016-02-03T01:09:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/archive.html</loc>
-  <lastmod>2016-02-03T23:38:00Z</lastmod>
+  <loc>http://adammichaelwood.com/another-test-site/archive.html</loc>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/categories/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/categories/</loc>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://adammichaelwood.com/another-test-site/categories/development/</loc>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://adammichaelwood.com/another-test-site/categories/markdown/</loc>
   <lastmod>2016-02-03T23:40:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/categories/markdown/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/categories/testing/</loc>
   <lastmod>2016-02-03T23:40:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/categories/testing/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/categories/writing/</loc>
   <lastmod>2016-02-03T23:40:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/categories/writing/</loc>
-  <lastmod>2016-02-03T23:40:00Z</lastmod>
- </url>
- <url>
-  <loc>https://0.0.0.0:8000/galleries/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/galleries/</loc>
   <lastmod>2016-02-03T00:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/listings/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/listings/</loc>
   <lastmod>2016-02-03T00:51:00Z</lastmod>
  </url>
  <url>
-  <loc>https://0.0.0.0:8000/posts/and-another/</loc>
+  <loc>http://adammichaelwood.com/another-test-site/posts/and-another/</loc>
   <lastmod>2016-02-03T01:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://adammichaelwood.com/another-test-site/posts/writing-about-writing-about-development/</loc>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </url>
 </urlset>

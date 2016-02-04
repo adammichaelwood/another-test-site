@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Adam Wood"  # (translatable)
 BLOG_TITLE = "hack.write()"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://0.0.0.0:8000/"
+SITE_URL = "http://adammichaelwood.com/another-test-site/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"

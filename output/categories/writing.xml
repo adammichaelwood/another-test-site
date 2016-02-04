@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>hack.write() (writing)</title><link>https://0.0.0.0:8000/</link><description></description><atom:link type="application/rss+xml" rel="self" href="https://0.0.0.0:8000/categories/writing.xml"></atom:link><language>en</language><lastBuildDate>Wed, 03 Feb 2016 23:40:47 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>And Another</title><link>https://0.0.0.0:8000/posts/and-another/</link><dc:creator>Adam Wood</dc:creator><description>&lt;div&gt;&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href="http://example.com"&gt;consectetur adipiscing&lt;/a&gt; elit. In et ex &lt;a href="https://0.0.0.0:8000/example-page"&gt;vel&lt;/a&gt; mi tincidunt &lt;em&gt;italic&lt;/em&gt; tincidunt &lt;strong&gt;bold&lt;/strong&gt; in tristique velit. Praesent &lt;code&gt;some code&lt;/code&gt; consequat &lt;dfn&gt;definition&lt;/dfn&gt; elit ac risus &lt;abbr&gt;abbr&lt;/abbr&gt; faucibus suscipit. Vivamus ut justo non lorem cursus condimentum sit amet nec lorem.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>hack.write() (writing)</title><link>http://adammichaelwood.com/another-test-site/</link><description></description><atom:link type="application/rss+xml" href="http://adammichaelwood.com/another-test-site/categories/writing.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 04 Feb 2016 01:04:47 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing About Writing About Development</title><link>http://adammichaelwood.com/another-test-site/posts/writing-about-writing-about-development/</link><dc:creator>Adam Wood</dc:creator><description>&lt;div&gt;&lt;p&gt;I am a writer. Also, I (pretend to be) a developer. I already have a &lt;a href="http://adammichaelwood.com"&gt;personal blog&lt;/a&gt;, but it has a lot of poetry and theology and stuff like that on it. So have started writing about writing about development. And this is a crappy example post that is being used to test my design styles. Here is an unordered list describing things I have written up until now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;poetry&lt;/li&gt;
+&lt;li&gt;theology&lt;/li&gt;
+&lt;li&gt;stuff like that&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But here is an ordered list of things I should be writing about:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Writing about writing&lt;/li&gt;
+&lt;li&gt;Writing about development&lt;/li&gt;
+&lt;li&gt;Writing about writing about development&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;The problem&lt;/h2&gt;
+&lt;p&gt;Basically, I write about techy things for a living. So I'm trying to write about techy things for my personal blog also. Because personal branding and things like that. Here is a quote about that sort of thing.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Personal branding is very important.&lt;br&gt;
+--- Everyone&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;The solution&lt;/h3&gt;
+&lt;p&gt;This blog is where I will write about all the development things that I happen to think about on a daily basis. One of the things that will matter is code samples. Here is a code sample:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"python"&lt;/span&gt;
+
+&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s2"&gt;"I am trying to learn &lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s2"&gt;."&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;h3&gt;Details&lt;/h3&gt;
+&lt;p&gt;This design is all about syntax highlighting regular text. Is this is a good idea? I don't know. Maybe it will be awesome. Maybe it will be nerdly in a good way. Or maybe it will seem like I am trying too hard.&lt;/p&gt;
+&lt;h4&gt;Some of the markup Details&lt;/h4&gt;
+&lt;p&gt;The headline numbering is CSS. The list item bullets are just plain hyphens. The coloring of various things is the way I see them in my text editor. Did you notice the almost-invisible HTML tags here and there? Like at the end of paragraphs and before and after blockquotes?&lt;/p&gt;
+&lt;p&gt;I think that is awesome. Do you?&lt;/p&gt;
+&lt;h2&gt;Here is another headline&lt;/h2&gt;
+&lt;p&gt;Because I wanted to see some good auto-numbering.&lt;/p&gt;&lt;/div&gt;</description><category>development</category><category>writing</category><guid>http://adammichaelwood.com/another-test-site/posts/writing-about-writing-about-development/</guid><pubDate>Thu, 04 Feb 2016 00:53:49 GMT</pubDate></item><item><title>And Another</title><link>http://adammichaelwood.com/another-test-site/posts/and-another/</link><dc:creator>Adam Wood</dc:creator><description>&lt;div&gt;&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href="http://example.com"&gt;consectetur adipiscing&lt;/a&gt; elit. In et ex &lt;a href="http://adammichaelwood.com/another-test-site/example-page"&gt;vel&lt;/a&gt; mi tincidunt &lt;em&gt;italic&lt;/em&gt; tincidunt &lt;strong&gt;bold&lt;/strong&gt; in tristique velit. Praesent &lt;code&gt;some code&lt;/code&gt; consequat &lt;dfn&gt;definition&lt;/dfn&gt; elit ac risus &lt;abbr&gt;abbr&lt;/abbr&gt; faucibus suscipit. Vivamus ut justo non lorem cursus condimentum sit amet nec lorem.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is a blockquote.
 Vivamus ut justo non lorem cursus condimentum sit amet nec lorem.&lt;/p&gt;
@@ -87,4 +119,4 @@ Things to be rendered.
   &lt;p&gt;Maecenas ultricies placerat eros vitae faucibus.&lt;/p&gt;
 &lt;/div&gt;&lt;!-- /.class  /#id --&gt;
 Other things.
-&lt;/div&gt;&lt;/div&gt;</description><category>markdown</category><category>testing</category><category>writing</category><guid>https://0.0.0.0:8000/posts/and-another/</guid><pubDate>Wed, 03 Feb 2016 01:08:48 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>markdown</category><category>testing</category><category>writing</category><guid>http://adammichaelwood.com/another-test-site/posts/and-another/</guid><pubDate>Wed, 03 Feb 2016 01:08:48 GMT</pubDate></item></channel></rss>
