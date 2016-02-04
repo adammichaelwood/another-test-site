@@ -6,6 +6,10 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://adammichaelwood.com/another-test-site/categories/development.xml</loc>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://adammichaelwood.com/another-test-site/categories/markdown.xml</loc>
   <lastmod>2016-02-03T23:55:00Z</lastmod>
  </sitemap>
@@ -15,7 +19,7 @@
  </sitemap>
  <sitemap>
   <loc>http://adammichaelwood.com/another-test-site/categories/writing.xml</loc>
-  <lastmod>2016-02-03T23:55:00Z</lastmod>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adammichaelwood.com/another-test-site/galleries/rss.xml</loc>
@@ -23,10 +27,10 @@
  </sitemap>
  <sitemap>
   <loc>http://adammichaelwood.com/another-test-site/rss.xml</loc>
-  <lastmod>2016-02-03T23:55:00Z</lastmod>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adammichaelwood.com/another-test-site/sitemap.xml</loc>
-  <lastmod>2016-02-03T23:55:00Z</lastmod>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </sitemap>
 </sitemapindex>

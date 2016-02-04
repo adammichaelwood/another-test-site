@@ -15,11 +15,15 @@
  </url>
  <url>
   <loc>http://adammichaelwood.com/another-test-site/archive.html</loc>
-  <lastmod>2016-02-03T23:55:00Z</lastmod>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://adammichaelwood.com/another-test-site/categories/</loc>
-  <lastmod>2016-02-03T23:40:00Z</lastmod>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://adammichaelwood.com/another-test-site/categories/development/</loc>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </url>
  <url>
   <loc>http://adammichaelwood.com/another-test-site/categories/markdown/</loc>
@@ -44,5 +48,9 @@
  <url>
   <loc>http://adammichaelwood.com/another-test-site/posts/and-another/</loc>
   <lastmod>2016-02-03T01:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://adammichaelwood.com/another-test-site/posts/writing-about-writing-about-development/</loc>
+  <lastmod>2016-02-04T01:04:00Z</lastmod>
  </url>
 </urlset>
