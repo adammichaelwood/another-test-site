@@ -778,11 +778,25 @@ pre.code, code {
 /** HACKWRITE THEMING **/
 /* Solarized colors */
 /* One size */
+@media all and (min-width: 960px) {
+  body {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 959px) and (min-width: 600px) {
+  body {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 599px) and (min-width: 50px) {
+  body {
+    font-size: 16px;
+  }
+}
 body {
   background-color: #1b1b1b;
   color: #8d8d8d;
   font-family: "Emilbus Mono", Menlo, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-  font-size: 30px;
   line-height: 1.4;
   padding: 1em;
 }
