@@ -19,6 +19,28 @@
 @cyan:      #2aa198;
 @green:     #859900;
 
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block;
+	&:after {
+	     visibility: hidden;
+	     display: block;
+	     font-size: 0;
+	     content: " ";
+	     clear: both;
+	     height: 0;
+	     }
+}
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
 
 
 
@@ -51,7 +73,45 @@ body {
 	padding: 1em;
 }
 
-#brand, .entry-title, #header, #nav, menu, h1, h2, h3, h4, h5, h6 {
+#header {
+	background-color: #000000;
+	width: calc(100vw - 2em);
+	margin-top: 0;
+	margin-bottom: 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	font-size: .75em;
+	font-weight: normal;
+	padding-top: .5em;
+	padding-bottom:.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	z-index: 9999;
+
+
+
+	#brand {
+		float: left;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: normal;
+	}
+
+	#menu {
+		float: right;
+
+		ul {
+			margin-top: 0;
+			margin-bottom: 0;
+			font-weight: normal;
+		}
+	}
+
+	.clearfix;
+}
+
+.entry-title, menu, h1, h2, h3, h4, h5, h6 {
 	font-size: 1em;
 }
 
@@ -101,14 +161,23 @@ h4, h5, h6 {
 	font-weight: normal;
 }
 
-.after-markup {
+.markup-reveal {
 	font-size: .75em;
+	font-weight: lighter;
 	color: @base02;
 }
 
-article p {
+.entry-content p {
+	position: relative;
+	&:before, &:after {
+		.markup-reveal;
+	}
+	&:before {
+		content: "<p>";
+		position: absolute;
+		left: -3ch;
+	}
 	&:after {
-	 .after-markup;
 	 content: "</p>";
 	}
 }
@@ -140,30 +209,30 @@ h5 {counter-reset: h6}
 
 
 article h2:after {
-	.after-markup;
+	.markup-reveal;
 	content: " </h2>";
 
 }
 
 article h3:after {
-	.after-markup;
+	.markup-reveal;
 	content: " </h3>";
 
 }
 article h4:after {
-	.after-markup;
+	.markup-reveal;
 	content: " </h4>";
 
 }
 
 article h5:after {
-	.after-markup;
+	.markup-reveal;
 	content: " </h5>";
 
 }
 
 article h6:after {
-	.after-markup;
+	.markup-reveal;
 	content: " </h6>";
 
 }
@@ -264,7 +333,7 @@ ol ul li:before {
 		}
 	}
 
-	.byline-name {
+	.byline {
 		&:before {
 			color: @base01;
 			content: " .. author:";
@@ -291,7 +360,7 @@ blockquote {
 	border-left: 1px solid @base02;
 
 	&:before, &:after {
-		.after-markup;
+		.markup-reveal;
 		display: block;
 	}
 	&:before {
@@ -300,4 +369,32 @@ blockquote {
 	&:after {
 		content: "</blockquote>"
 	}
+	p {
+		&:before, &:after {
+			content: none !important;
+		}
+	}
+	cite {
+		color: @base01;
+		font-style: italic;
+		display: block;
+		margin-left: 2ch;
+
+		&:before {
+			content: "— ";
+		}
+	}
+
+}
+
+article.postpage header:before {
+		.markup-reveal;
+		display: block;
+		content: "<article>";
+}
+
+.postpage .entry-content:after {
+  	.markup-reveal;
+	  display: block;
+		content: "</article>";
 }
