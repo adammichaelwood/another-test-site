@@ -777,6 +777,33 @@ pre.code, code {
 
 /** HACKWRITE THEMING **/
 /* Solarized colors */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+/* close commented backslash hack */
 /* One size */
 @media all and (min-width: 960px) {
   body {
@@ -800,10 +827,47 @@ body {
   line-height: 1.4;
   padding: 1em;
 }
-#brand,
+#header {
+  background-color: #000000;
+  width: calc(98vw);
+  margin-top: 0;
+  margin-bottom: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-size: .75em;
+  font-weight: normal;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  z-index: 9999;
+  display: inline-block;
+  display: block;
+}
+#header #brand {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+#header #menu {
+  float: right;
+}
+#header #menu ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+#header:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 .entry-title,
-#header,
-#nav,
 menu,
 h1,
 h2,
@@ -865,13 +929,26 @@ h6 {
   text-decoration: none;
   font-weight: normal;
 }
-.after-markup {
+.markup-reveal {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
 }
-article p:after {
+.entry-content p {
+  position: relative;
+}
+.entry-content p:before,
+.entry-content p:after {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
+}
+.entry-content p:before {
+  content: "<p>";
+  position: absolute;
+  left: -3ch;
+}
+.entry-content p:after {
   content: "</p>";
 }
 article h2,
@@ -927,26 +1004,31 @@ h6:before {
 }
 article h2:after {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
   content: " </h2>";
 }
 article h3:after {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
   content: " </h3>";
 }
 article h4:after {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
   content: " </h4>";
 }
 article h5:after {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
   content: " </h5>";
 }
 article h6:after {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
   content: " </h6>";
 }
@@ -1026,7 +1108,7 @@ ol ul li:before {
 .metadata p:after {
   content: none;
 }
-.metadata .byline-name:before {
+.metadata .byline:before {
   color: #676767;
   content: " .. author:";
 }
@@ -1045,6 +1127,7 @@ blockquote {
 blockquote:before,
 blockquote:after {
   font-size: .75em;
+  font-weight: lighter;
   color: #252525;
   display: block;
 }
@@ -1053,4 +1136,31 @@ blockquote:before {
 }
 blockquote:after {
   content: "</blockquote>";
+}
+blockquote p:before,
+blockquote p:after {
+  content: none !important;
+}
+blockquote cite {
+  color: #676767;
+  font-style: italic;
+  display: block;
+  margin-left: 2ch;
+}
+blockquote cite:before {
+  content: "— ";
+}
+article.postpage header:before {
+  font-size: .75em;
+  font-weight: lighter;
+  color: #252525;
+  display: block;
+  content: "<article>";
+}
+.postpage .entry-content:after {
+  font-size: .75em;
+  font-weight: lighter;
+  color: #252525;
+  display: block;
+  content: "</article>";
 }

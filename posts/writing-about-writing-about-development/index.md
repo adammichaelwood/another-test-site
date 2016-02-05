@@ -25,8 +25,8 @@ But here is an ordered list of things I should be writing about:
 
 Basically, I write about techy things for a living. So I'm trying to write about techy things for my personal blog also. Because personal branding and things like that. Here is a quote about that sort of thing.
 
-> Personal branding is very important.  
-> --- Everyone
+> Personal branding is very important.
+> <cite>Everyone</cite>
 
 ## The solution
 

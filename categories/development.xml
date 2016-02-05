@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>hack.write() (development)</title><link>http://adammichaelwood.com/another-test-site/</link><description></description><atom:link type="application/rss+xml" href="http://adammichaelwood.com/another-test-site/categories/development.xml" rel="self"></atom:link><language>en</language><lastBuildDate>Thu, 04 Feb 2016 01:04:47 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing About Writing About Development</title><link>http://adammichaelwood.com/another-test-site/posts/writing-about-writing-about-development/</link><dc:creator>Adam Wood</dc:creator><description>&lt;div&gt;&lt;p&gt;I am a writer. Also, I (pretend to be) a developer. I already have a &lt;a href="http://adammichaelwood.com"&gt;personal blog&lt;/a&gt;, but it has a lot of poetry and theology and stuff like that on it. So have started writing about writing about development. And this is a crappy example post that is being used to test my design styles. Here is an unordered list describing things I have written up until now:&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>hack.write() (development)</title><link>http://adammichaelwood.com/another-test-site/</link><description></description><atom:link href="http://adammichaelwood.com/another-test-site/categories/development.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 04 Feb 2016 23:55:18 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Writing About Writing About Development</title><link>http://adammichaelwood.com/another-test-site/posts/writing-about-writing-about-development/</link><dc:creator>Adam Wood</dc:creator><description>&lt;div&gt;&lt;p&gt;I am a writer. Also, I (pretend to be) a developer. I already have a &lt;a href="http://adammichaelwood.com"&gt;personal blog&lt;/a&gt;, but it has a lot of poetry and theology and stuff like that on it. So have started writing about writing about development. And this is a crappy example post that is being used to test my design styles. Here is an unordered list describing things I have written up until now:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;poetry&lt;/li&gt;
 &lt;li&gt;theology&lt;/li&gt;
@@ -14,8 +14,8 @@
 &lt;h2&gt;The problem&lt;/h2&gt;
 &lt;p&gt;Basically, I write about techy things for a living. So I'm trying to write about techy things for my personal blog also. Because personal branding and things like that. Here is a quote about that sort of thing.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Personal branding is very important.&lt;br&gt;
---- Everyone&lt;/p&gt;
+&lt;p&gt;Personal branding is very important.
+&lt;cite&gt;Everyone&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;The solution&lt;/h3&gt;
 &lt;p&gt;This blog is where I will write about all the development things that I happen to think about on a daily basis. One of the things that will matter is code samples. Here is a code sample:&lt;/p&gt;
